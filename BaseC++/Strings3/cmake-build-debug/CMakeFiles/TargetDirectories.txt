@@ -1,0 +1,3 @@
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Strings3/cmake-build-debug/CMakeFiles/Strings3.dir
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Strings3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Strings3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/DynamicMultiArrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/DynamicMultiArrays/cmake-build-debug/CMakeFiles/DynamicMultiArrays.dir
+C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/DynamicMultiArrays/cmake-build-debug/CMakeFiles/edit_cache.dir

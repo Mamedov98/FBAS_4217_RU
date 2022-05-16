@@ -1,0 +1,24 @@
+# ninja log v5
+21	895	6717298381050954	CMakeFiles/RepeatLesson.dir/main.cpp.obj	b50b60652d1e5685
+799	962	6717301263094893	RepeatLesson.exe	8129017177cf55bb
+3	799	6717301261504550	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+3	702	6717301703632119	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+703	923	6717301705767147	RepeatLesson.exe	8129017177cf55bb
+3	645	6717302173156417	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+645	807	6717302174756979	RepeatLesson.exe	8129017177cf55bb
+5	693	6717302346328405	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+695	851	6717302347887606	RepeatLesson.exe	8129017177cf55bb
+4	679	6717302449375963	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+680	836	6717302450926485	RepeatLesson.exe	8129017177cf55bb
+3	645	6717302934802574	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+645	843	6717302936766275	RepeatLesson.exe	8129017177cf55bb
+3	646	6717302996088957	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+647	828	6717302997884545	RepeatLesson.exe	8129017177cf55bb
+4	661	6717303073067607	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+661	813	6717303074553643	RepeatLesson.exe	8129017177cf55bb
+2	494	6719860437975024	CMakeFiles/RepeatLesson.dir/string_operations.cpp.obj	9a3fbfc6da6f414d
+494	609	6719860439110410	RepeatLesson.exe	8129017177cf55bb
+3	671	6719860531739939	CMakeFiles/RepeatLesson.dir/main.cpp.obj	b50b60652d1e5685
+672	785	6719860532846964	RepeatLesson.exe	8129017177cf55bb
+4	873	6721772783572871	CMakeFiles/RepeatLesson.dir/main.cpp.obj	b50b60652d1e5685
+874	1062	6721772785457826	RepeatLesson.exe	8129017177cf55bb
