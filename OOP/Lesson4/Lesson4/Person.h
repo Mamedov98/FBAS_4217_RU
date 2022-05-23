@@ -26,6 +26,10 @@ public:
 
 		return out;
 	}
+
+	bool operator == (const Person& p) {
+		return this->age == p.age;
+	}
 };
 
 
