@@ -1,13 +1,14 @@
 #include <iostream>
 #include <vector>
 
+
 template <typename T>
 class Myarray
 {
 public:
 	Myarray(T test)
 	{
-		this->test = test;
+		this->test = new T[size]{};
 	}
 
 
@@ -17,7 +18,8 @@ public:
 	}
 
 private: 
-	T test;
+	T* test;
+	unsigned int size = 10;
 };
 
 

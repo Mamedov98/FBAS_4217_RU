@@ -1,0 +1,4 @@
+﻿  Static.cpp
+C:\Users\e.azimov\FBAS_4217_RU\OOP\Static\Static\Static.cpp(24,9): warning C4068: unknown pragma 'Part2'
+Static.obj : error LNK2001: unresolved external symbol "public: static double Circle::pi" (?pi@Circle@@2NA)
+C:\Users\e.azimov\FBAS_4217_RU\OOP\Static\x64\Debug\Static.exe : fatal error LNK1120: 1 unresolved externals
