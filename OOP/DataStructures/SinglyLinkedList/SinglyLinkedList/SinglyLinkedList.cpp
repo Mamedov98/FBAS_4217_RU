@@ -1,73 +1,78 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 
-//template <typename T>
-//class LinkedList
-//{
-//public:
-//	LinkedList(T value)
-//	{
-//		this->value = value;
-//	}
-//
-//	T value;
-//	LinkedList* next = nullptr;
-//
-//	friend std::ostream& operator <<(std::ostream& out, const LinkedList<T>& list)
-//	{
-//		while (list.next != nullptr)
-//		{
-//			out << list.value;
-//		}
-//		return out;
-//	}
-//
-//};
-
-
-
 template <typename T>
-class MyArray
+class List
 {
 public:
-	MyArray(std::initializer_list<T> elements) {
+	struct Node
+	{
+		T value{};
+		Node* next{};
+	};
 
-		this->length = elements.size();
+	List(size_t size)
+	{
+		int i = 1;
 
-		auto* begin = elements.begin();
+		this->size = size;
+		this->head = new List<T>::Node;
 
-		arr = new T[length]{};
+		cout << "Enter " << i << "element: ";
+		cin >> this->head->value;
 
-		int i = 0;
-		while (i < length) {
-			arr[i] = *begin;
-			begin++;
+		Node* cur_elem = this->head;
+		i++;
+
+		while (i <= size)
+		{
+			cout << "Enter " << i << "element: ";
+			cur_elem->next = new List<T>::Node;
+
+			cin >> cur_elem->next->value;
+			cur_elem = cur_elem->next;
+
+			if (i == size)
+			{
+				this->tail = new List<T>::Node;
+				this->tail = cur_elem;
+			}
 			i++;
 		}
 	}
 
-	friend std::ostream& operator << (std::ostream& out, const MyArray& data)
+
+	friend ostream& operator<<(ostream& out, List<T>& list)
 	{
-		for (size_t i = 0; i < data.length; i++)
+		Node* cur_elem = list.head;
+		while (cur_elem != nullptr)
 		{
-			out << data.arr[i] << ' ';
+			out << cur_elem->value << endl;
+			cur_elem = cur_elem->next;
 		}
 		return out;
 	}
 
+	size_t get_size() { return this->size; }
+	Node* get_head() { return this->head; }
+	Node* get_tail() { return this->tail; }
+
 private:
-	T* arr{};
-	int length{};
+	Node* head{};
+	Node* tail{};
+	size_t size;
 };
 
 
 int main()
 {
+	List<int> my_list(3);
+	cout << my_list << endl;
 
-	MyArray<int> a {1, 2, 3, 4};
-	cout << a;
+
+	cout << "Head: " << my_list.get_head()->value << endl;
+	cout << "Tail: " << my_list.get_tail()->value << endl;
 
 	return 0;
 }
