@@ -21,26 +21,64 @@ using namespace std;
 #pragma endregion
 
 
-#pragma Part2
+#pragma region Part2
+//
+// class Circle
+// {
+// public:
+//
+// 	static double pi;
+// };
+//
+//
+//
+// int main()
+// {
+// 	Circle c;
+//
+//
+//
+// 	return 0;
+// }
 
-class Circle
+#pragma endregion
+
+class A
 {
 public:
-
-	static double pi;
+	A() { cout << "Ctor created" << endl; }
+	~A() { cout << "DeCtor created" << endl; }
 };
 
+
+void foo()
+{
+	static A a{};
+}
+
+void foo2()
+{
+	A a{};
+}
 
 
 int main()
 {
-	Circle c;
+	cout << "Main" << endl;
+	foo();
+	foo();
+	foo();
+	foo();
+	foo();
+	foo();
 
-
-
+	/*foo2();
+	foo2();
+	foo2();
+	foo2();
+	foo2();
+	foo2();
+	foo2();*/
+	cout << "End of Main" << endl;
 	return 0;
 }
-
-#pragma endregion
-
-

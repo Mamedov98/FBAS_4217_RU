@@ -3,17 +3,36 @@
 using namespace std;
 
 
+class Coordinates
+{
+public:
+	Coordinates() = default;
+	Coordinates(uint16_t x, uint16_t y)
+	{
+		this->x = x;
+		this->y = y;
+	}
+
+	Coordinates* operator() (Coordinates *first, Coordinates *second) const
+	{
+		return new Coordinates((first->x + second->x), (first->y + second->y));
+	}
+
+	uint16_t x{};
+	uint16_t y{};
+};
+
+
+
 int main() {
 
-	Person p1(new char[] {"Elvin"}, new char[] {"Azimov"}, 20);
-	Person* p2 = new Person(new char[] {"Mamed"}, new char[] {"Kerimli"}, 20);
+	Coordinates a(15, 15);
+	Coordinates b(15, 15);
 
-	//cout << p1; // cout - std::ostream, << - operator, p1 - &Person 
+	Coordinates* c = a(&a, &b);
 
-	//cout << p1;
-	//p1++;
-	//cout << p1;
+	cout << c->x << ' ' << c->y << endl;
 
-	cout << (p1 == *p2);
 }
+
 
