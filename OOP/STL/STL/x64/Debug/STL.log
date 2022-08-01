@@ -1,0 +1,15 @@
+﻿  STL.cpp
+C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\STL\STL.cpp(52,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\STL\STL.cpp(47): message : while compiling class template member function 'int MyArr<int>::operator ()(T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\STL\STL.cpp(164): message : see reference to function template instantiation 'int MyArr<int>::operator ()(T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\STL\STL.cpp(156): message : see reference to class template instantiation 'MyArr<int>' being compiled
+C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\STL\STL.cpp(55): warning C4715: 'MyArr<int>::operator()': not all control paths return a value
+  STL.vcxproj -> C:\Users\e.azimov\FBAS_4217_RU\OOP\STL\x64\Debug\STL.exe
