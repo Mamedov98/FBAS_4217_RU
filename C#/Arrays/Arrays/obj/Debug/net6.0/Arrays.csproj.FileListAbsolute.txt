@@ -1,0 +1,15 @@
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\bin\Debug\net6.0\Arrays.exe
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\bin\Debug\net6.0\Arrays.deps.json
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\bin\Debug\net6.0\Arrays.runtimeconfig.json
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\bin\Debug\net6.0\Arrays.dll
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\bin\Debug\net6.0\Arrays.pdb
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.AssemblyReference.cache
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.AssemblyInfo.cs
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.dll
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\refint\Arrays.dll
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.pdb
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\Arrays.genruntimeconfig.cache
+C:\Users\e.azimov\FBAS_4217_RU\C#\Arrays\Arrays\obj\Debug\net6.0\ref\Arrays.dll
