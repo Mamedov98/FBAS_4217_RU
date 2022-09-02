@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\bin\Debug\net7.0\Interfaces.exe
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\bin\Debug\net7.0\Interfaces.deps.json
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\bin\Debug\net7.0\Interfaces.runtimeconfig.json
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\bin\Debug\net7.0\Interfaces.dll
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\bin\Debug\net7.0\Interfaces.pdb
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.dll
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\refint\Interfaces.dll
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.pdb
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\Interfaces.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\C#\Interfaces\Interfaces\obj\Debug\net7.0\ref\Interfaces.dll

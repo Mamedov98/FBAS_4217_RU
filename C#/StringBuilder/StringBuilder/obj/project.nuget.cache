@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AMVpHYSQz9KJu39tNshrN9l28jT0d6UI1M68vFRfFSij0MAyAdQzb3hfcUx/ibaRe2tzKOLs7cwjCde25nMskQ==",
+  "dgSpecHash": "rE1SMjSt6WORNnIF6el24RLodWJIntnobpRd8T8s8uRs0xIvagmBpXxeVBGyiB/A6rklKpCko8HGoIHdtT42aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\e.azimov\\FBAS_4217_RU\\C#\\StringBuilder\\StringBuilder\\StringBuilder.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\C#\\StringBuilder\\StringBuilder\\StringBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.7\\microsoft.netcore.app.host.win-x64.6.0.7.nupkg.sha512"
+  ],
   "logs": []
 }
