@@ -1,18 +1,17 @@
-﻿//5191fee1957155f779bfd029a4a97e18
-
-using System.Net;
-using WeatherHistory;
+﻿using WeatherHistory;
+using WeatherHistory.Model;
 using WeatherHistory.Services.Classes;
 using WeatherHistory.Services.Interfaces;
 
 
-//Forecast? weather = new();
-//IDataSerializer dataSerializer = new DataSerializer();
+Forecast? weather = new();
+IDataSerializer dataSerializer = new DataSerializer();
+IWeatherClient weatherClient = new WeatherClient(dataSerializer);
 
-//IWeatherClient weatherClient = new WeatherClient(dataSerializer);
+Console.Write("Enter name of city: ");
+string cityName = Console.ReadLine();
 
-//weather = weatherClient.GetWeatherByCity("Baku") as Forecast;
-
-//Console.WriteLine(weather?.main.temp);
+weather = weatherClient.GetWeatherByCity(cityName) as Forecast;
+Console.WriteLine(weather);
 
 
