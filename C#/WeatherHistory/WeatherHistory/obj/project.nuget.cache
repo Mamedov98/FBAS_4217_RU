@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SA0uvnsM7nI95vlAoH/ggiMAVuYtowXVLqrlwC41xMvGiePMqcvBNay80/XZq71iLaDiUiXVyecS8h8BcgjTfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\e.azimov\\Desktop\\WeatherHistory\\WeatherHistory\\WeatherHistory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.azimov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
