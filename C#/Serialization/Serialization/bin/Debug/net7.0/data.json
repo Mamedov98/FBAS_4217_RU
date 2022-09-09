@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Elvin",
+        "Surname": "Azimov",
+        "Age": 20,
+        "GPA": 12
+    },
+    {
+        "Name": "Marat",
+        "Surname": "Garifulin",
+        "Age": 15,
+        "GPA": 12
+    },
+    {
+        "Name": "Fidan",
+        "Surname": "Axundbeyli",
+        "Age": 19,
+        "GPA": 12
+    }
+]
