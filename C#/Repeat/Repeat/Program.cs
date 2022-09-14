@@ -1,14 +1,30 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using Repeat;
+﻿using Repeat;
+using Repeat.Services;
 
-Car a = new() { Make = "Mercedes", Year = 2000 };
-Car b = new() { Year = 2017 };
 
-Console.WriteLine(a < b);
+//Hardware ram = new() { Name = "RAM", Description = "Ejdaha" };
+Atlet atlet = new()
+{
+    Height = 165,
+    Weight = 75,
+    Strength = 100,
+    IsNatural = true
+};
 
-Showroom showroom = new() { Cars = new[] {a, b}};
+FileService<string> fs = new()
+{
+    FileToWrite = SerializationService.SerializeJson(atlet),
+    Path = "data.json",
+    ModeToOpen = FileMode.OpenOrCreate
+};
 
-showroom[1] = new Car();
+//fs.Write();
 
-Console.WriteLine(showroom[0]);
-Console.WriteLine(showroom[1]);
+
+string res = fs.Read();
+
+Atlet fromfile = new();
+
+fromfile = SerializationService.DeSerializeJson(res) as Atlet;
+
+Console.WriteLine(fromfile);

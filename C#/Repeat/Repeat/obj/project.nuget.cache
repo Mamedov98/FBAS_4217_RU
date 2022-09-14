@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KTOywpJd3ljwibjFYZHXCU1CXvAkiMvzMrUD+2ZgC0t9IK0UBdK97+3kf43VtS+YXGtbQQ1e3aLsTMmq1M7l1w==",
+  "dgSpecHash": "HiopJ4Jw7WFCuX9z/oe2n9dCAnACOoC03gAcQDRz5vkla9vX9eCbbDRiZa2Yi7DdC/xf/+Xu7pIcnx3woCdPXQ==",
   "success": true,
-  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\C#\\Repeat\\Repeat\\Repeat.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\e.azimov\\FBAS_4217_RU\\C#\\Repeat\\Repeat\\Repeat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\e.azimov\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
