@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\Exception\\ExceptionLesson.csproj",
-      "projectName": "ExceptionLesson",
-      "projectPath": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\Exception\\ExceptionLesson.csproj",
+      "projectUniqueName": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\ExceptionFilter\\ExceptionFilter.csproj",
+      "projectName": "ExceptionFilter",
+      "projectPath": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\ExceptionFilter\\ExceptionFilter.csproj",
       "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\Exception\\obj\\",
+      "outputPath": "C:\\Work\\FBAS_4217_RU\\C#\\Exception\\ExceptionFilter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

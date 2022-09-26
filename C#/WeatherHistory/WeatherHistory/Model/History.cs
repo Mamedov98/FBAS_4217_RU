@@ -7,6 +7,7 @@ public class History : IWritable
     public DateTime Date { get; set; }
 }
 
+
 class MyClass : IWritable
 {
     

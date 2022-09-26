@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\bin\Debug\net7.0\ExceptionFilter.exe
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\bin\Debug\net7.0\ExceptionFilter.deps.json
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\bin\Debug\net7.0\ExceptionFilter.runtimeconfig.json
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\bin\Debug\net7.0\ExceptionFilter.dll
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\bin\Debug\net7.0\ExceptionFilter.pdb
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.dll
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\refint\ExceptionFilter.dll
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.pdb
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ExceptionFilter.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\C#\Exception\ExceptionFilter\obj\Debug\net7.0\ref\ExceptionFilter.dll

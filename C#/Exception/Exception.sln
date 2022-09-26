@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionLesson", "Exception\ExceptionLesson.csproj", "{900889A6-45CC-4149-8132-5E630BD0EC7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionFilter", "ExceptionFilter\ExceptionFilter.csproj", "{7EAE77F1-6FDB-46F2-962E-374CDBCE6651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{900889A6-45CC-4149-8132-5E630BD0EC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{900889A6-45CC-4149-8132-5E630BD0EC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{900889A6-45CC-4149-8132-5E630BD0EC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EAE77F1-6FDB-46F2-962E-374CDBCE6651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAE77F1-6FDB-46F2-962E-374CDBCE6651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAE77F1-6FDB-46F2-962E-374CDBCE6651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAE77F1-6FDB-46F2-962E-374CDBCE6651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
