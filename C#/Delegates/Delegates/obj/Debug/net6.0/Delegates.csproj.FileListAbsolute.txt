@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\bin\Debug\net6.0\Delegates.exe
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\bin\Debug\net6.0\Delegates.deps.json
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\bin\Debug\net6.0\Delegates.runtimeconfig.json
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\bin\Debug\net6.0\Delegates.dll
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\bin\Debug\net6.0\Delegates.pdb
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.dll
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\refint\Delegates.dll
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.pdb
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\Delegates.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\C#\Delegates\Delegates\obj\Debug\net6.0\ref\Delegates.dll

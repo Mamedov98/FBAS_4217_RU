@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "q5sAY1DLQC7cnmTWNRfacDxht962pjwW9C2uNpQZB0wLwsFuvByUOTvHKeXZ+zCUe6ykt/i2G/4g6XdVyzNLQw==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\C#\\LINQ\\LINQ\\LINQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.7\\microsoft.netcore.app.host.win-x64.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
