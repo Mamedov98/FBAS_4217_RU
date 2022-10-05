@@ -1,4 +1,5 @@
-﻿namespace Interfaces
+﻿
+namespace Interfaces
 {
     #region Abstract
 
@@ -22,7 +23,6 @@
     //}
     #endregion
 
-    // robotsMAD25
     #region Interface
 
     //interface IMoveable
@@ -60,29 +60,38 @@
         }
     }
 
-    interface ITestable
+    interface IInterface
     {
         public void Move()
         {
-            Console.WriteLine("Test moves");
+            Console.WriteLine("aaaa moves");
         }
     }
 
-    class Car : IMoveable, ITestable
+    class Car : IMoveable
     {
+       
     }
 
 
-
-    class Plane : IMoveable
+    class Plane : IMoveable, IInterface
     {
-        public string Make { get; set; }
-        public void Move()
+        void IMoveable.Move()
         {
-            Console.WriteLine($"{Make} flies");
+            Console.WriteLine("IMoveable Plane moves");
+        }
+        
+        void IInterface.Move()
+        {
+            Console.WriteLine("IInterface Plane moves");
         }
     }
+    // IInterface a = new Plane();
+    // a.Move();
 
     #endregion
 }
+
+
+
 

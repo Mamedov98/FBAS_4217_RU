@@ -26,16 +26,18 @@ List<Student> students = new()
 
 #endregion
 #region BinaryDeSerialization
+
 // var formatter = new BinaryFormatter();
 // using var fs = new FileStream("data.bin", FileMode.OpenOrCreate);
 
 // var result = formatter.Deserialize(fs) as List<Student>;
 
 // Console.WriteLine(result[0].Name);
+
 #endregion
 
 #region XML_Serialization
-//
+
 // using var fs = new FileStream("data.xml", FileMode.OpenOrCreate); 
 // var serializer = new XmlSerializer(typeof(List<Student>));
 // serializer.Serialize(fs, students);
@@ -46,10 +48,11 @@ List<Student> students = new()
 // using var fs = new FileStream("data.xml", FileMode.OpenOrCreate); 
 // var serializer = new XmlSerializer(typeof(List<Student>));
 // var result = serializer.Deserialize(fs) as List<Student>;
-//
+
+
 // foreach (var student in result)
 // {
-//     Console.WriteLine(student);
+     // Console.WriteLine(student);
 // }
 
 #endregion
@@ -61,16 +64,20 @@ List<Student> students = new()
 
 #endregion
 
+
 #region JSON_DeSerialization
 
-using var fs = new FileStream("data.json", FileMode.OpenOrCreate);
-using var sr = new StreamReader(fs);
+// using var fs = new FileStream("data.json", FileMode.OpenOrCreate);
+// using var sr = new StreamReader(fs);
 
-var result = JsonSerializer.Deserialize<List<Student>>(sr.ReadToEnd());
+// var json = sr.ReadToEnd();
 
-foreach (var student in result)
-{
-    Console.WriteLine(student);   
-}
+// var result = JsonSerializer.Deserialize<List<Student>>(json);
+
+// foreach (var student in result)
+// {
+    // Console.WriteLine(student);   
+// }
+
 
 #endregion

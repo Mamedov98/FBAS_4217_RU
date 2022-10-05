@@ -1,9 +1,33 @@
-﻿using Interfaces;
+﻿using System.Text.Json;
+using System.Threading.Channels;
+using Interfaces;
 
-Car car = new();
 
-IMoveable transport = car;
-ITestable test = car;
 
-transport.Move();
-test.Move();
+
+
+//
+// void foo(Car c)
+// {
+//     c = new() {name = "BMW"};
+// }
+//
+//
+//
+//
+//
+// void foo2(ref Car c)
+// {
+//     c = new() { name = "Tset" };
+// }
+//
+// Car a;
+//
+// foo2(ref a);
+// Console.WriteLine(a.name);
+//
+//
+// class Car
+// {
+//     public string name;
+// }

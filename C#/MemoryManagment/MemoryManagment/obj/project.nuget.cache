@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E1hSmSkF+x3KHuNGFXMHCx+1CYJNRXx1KEgk/b6ROz5blmd3GEW+Pg/7lNmZ7MFIWAJrFt6pHiEr9hd5IeANUA==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\C#\\MemoryManagment\\MemoryManagment\\MemoryManagment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.7\\microsoft.netcore.app.host.win-x64.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
