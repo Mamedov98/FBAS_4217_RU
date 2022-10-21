@@ -1,6 +1,0 @@
-﻿  Person.cpp
-  Polymorphism.cpp
-  Teacher.cpp
-C:\Users\e.azimov\FBAS_4217_RU\OOP\Polymorphism\Polymorphism\Teacher.cpp(18,22): warning C4244: 'return': conversion from 'double' to 'unsigned short', possible loss of data
-  Generating Code...
-  Polymorphism.vcxproj -> C:\Users\e.azimov\FBAS_4217_RU\OOP\Polymorphism\x64\Debug\Polymorphism.exe

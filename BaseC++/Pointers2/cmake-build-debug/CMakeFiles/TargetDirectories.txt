@@ -1,3 +1,0 @@
-C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Pointers2/cmake-build-debug/CMakeFiles/Pointers2.dir
-C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Pointers2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/elvin/CLionProjects/FBAS_4217_RU_C_Plus_Plus/Pointers2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
