@@ -9,7 +9,8 @@ namespace MusicAppMVVM.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        public ViewModelBase CurrentViewModel { get; set; }
+        private ViewModelBase currentViewModel;
+        public ViewModelBase CurrentViewModel { get => currentViewModel; set => Set(ref currentViewModel, value); }
 
         public MainViewModel()
         {

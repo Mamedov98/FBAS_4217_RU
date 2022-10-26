@@ -44,6 +44,15 @@ namespace MusicAppMVVM.ViewModel
             });
         }
 
+        public RelayCommand<Song> InfoCommand
+        {
+            get => new(async param =>
+            {
+                App.Container.GetInstance<MainViewModel>().CurrentViewModel = App.Container.GetInstance<InfoViewModel>();
+            });
+        }
+
+
         public RelayCommand DownloadCommand
         {
             get => new(async () =>

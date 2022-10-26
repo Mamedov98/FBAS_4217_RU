@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Work\4217_Second\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\
+C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\
 MusicAppMVVM
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Work\4217_Second\WPF\MusicAppMVVM2\MusicAppMVVM\App.xaml
-2799134935
+C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\App.xaml
+3-821751069
 
-131045767734
+15135901442
 198-2122288244
-View\MainView.xaml;View\SearchView.xaml;
+View\InfoView.xaml;View\MainView.xaml;View\SearchView.xaml;
 
-True
+False
 

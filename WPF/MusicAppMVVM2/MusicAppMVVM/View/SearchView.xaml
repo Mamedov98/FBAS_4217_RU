@@ -31,8 +31,11 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBox Text="{Binding Search}" Grid.Column="0"/>
-                <Button  Grid.Column="1" Command="{Binding SearchCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}">
+                <!--<Button  Grid.Column="1" Command="{Binding SearchCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}">
                     <mD:PackIcon Kind="Search"/>
+                </Button>-->
+                <Button  Grid.Column="1" Command="{Binding InfoCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}">
+                    <mD:PackIcon Kind="NavigateNext"/>
                 </Button>
             </Grid>
 
@@ -51,7 +54,7 @@
                                 <Label Content="{Binding duration}"/>
                             </StackPanel>
                             <StackPanel HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right">
-                                <Button Command="{Binding Path=DataContext.InfoCommand, ElementName=MyHomeView}">
+                                <Button Command="{Binding DataContext.InfoCommand, ElementName=MyHomeView}">
                                     <mD:PackIcon Width="30px" Height="20px" Kind="InformationCircle"/>
                                 </Button>
                                 <Button Command="{Binding DataContext.DownloadCommand, ElementName=MyHomeView}">

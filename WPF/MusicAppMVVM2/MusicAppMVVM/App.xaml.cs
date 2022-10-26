@@ -27,8 +27,9 @@ namespace MusicAppMVVM
         {
             Container = new();
 
-            Container.RegisterSingleton<SearchViewModel>();
             Container.RegisterSingleton<MainViewModel>();
+            Container.RegisterSingleton<SearchViewModel>();
+            Container.RegisterSingleton<InfoViewModel>();
 
             Container.Verify();
         }

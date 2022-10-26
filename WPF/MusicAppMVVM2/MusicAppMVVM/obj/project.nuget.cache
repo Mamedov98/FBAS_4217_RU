@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BpTHouTzySfHbbBJ5YshMEVAdiuWfSj/dtnMb/yO2GTrS5kh+Q4+VmG1JPBrKe13w2LSZvzd/FiVNe1l675/OA==",
+  "dgSpecHash": "4bcegqEXk6eLUJQomsycS3c6STZhOAqe7MWpcd+XbCVILMMuO5u6coz8F79J+2OEp54FR3DlHaPpiEjp0WG/RA==",
   "success": true,
-  "projectFilePath": "C:\\Work\\4217_Second\\WPF\\MusicAppMVVM2\\MusicAppMVVM\\MusicAppMVVM.csproj",
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\WPF\\MusicAppMVVM2\\MusicAppMVVM\\MusicAppMVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wayne\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512",
