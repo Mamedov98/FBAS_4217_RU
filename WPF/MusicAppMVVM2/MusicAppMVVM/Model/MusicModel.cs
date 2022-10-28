@@ -9,13 +9,9 @@ using System.Windows.Media.Imaging;
 
 namespace MusicAppMVVM.Model
 {
-
     public class MusicModel
     {
-        [DisplayName("Ok")]
         public bool ok { get; set; }
-
-        [DisplayName("Result")]
         public Result? result { get; set; }
     }
 
