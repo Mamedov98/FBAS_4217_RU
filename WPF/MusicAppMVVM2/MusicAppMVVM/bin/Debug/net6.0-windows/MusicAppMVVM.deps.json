@@ -11,12 +11,14 @@
           "MaterialDesignColors": "2.0.9",
           "MaterialDesignThemes": "4.6.1",
           "MvvmLightLibsStd10": "5.4.1.1",
+          "PropertyChanged.Fody": "4.0.5",
           "SimpleInjector": "5.4.1"
         },
         "runtime": {
           "MusicAppMVVM.dll": {}
         }
       },
+      "Fody/6.6.4": {},
       "MaterialDesignColors/2.0.9": {
         "runtime": {
           "lib/net6.0/MaterialDesignColors.dll": {
@@ -44,6 +46,11 @@
             "assemblyVersion": "5.4.1.0",
             "fileVersion": "5.4.1.0"
           }
+        }
+      },
+      "PropertyChanged.Fody/4.0.5": {
+        "dependencies": {
+          "Fody": "6.6.4"
         }
       },
       "SimpleInjector/5.4.1": {
@@ -75,6 +82,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Fody/6.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "path": "fody/6.6.4",
+      "hashPath": "fody.6.6.4.nupkg.sha512"
     },
     "MaterialDesignColors/2.0.9": {
       "type": "package",
@@ -110,6 +124,13 @@
       "sha512": "sha512-zU9KXgq8dfnzxxOvvAVtasbhaQGoDlTr8Pw2AjZ1NB905GQljrxqkgh3jo5/47Vux5duw3/faUgcZjdfomGvFw==",
       "path": "mvvmlightlibsstd10/5.4.1.1",
       "hashPath": "mvvmlightlibsstd10.5.4.1.1.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D4UXpsUw9kgayfHT8zzwzO2xL7PirJ/xrjX+Fp5x3Og/YDKtvKTMiCx0KGOydqOYXhP0OMyz22kZUMWRujdT0g==",
+      "path": "propertychanged.fody/4.0.5",
+      "hashPath": "propertychanged.fody.4.0.5.nupkg.sha512"
     },
     "SimpleInjector/5.4.1": {
       "type": "package",

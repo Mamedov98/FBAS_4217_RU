@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Fody/6.6.4": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "MaterialDesignColors/2.0.9": {
         "type": "package",
         "compile": {
@@ -65,6 +71,25 @@
           }
         }
       },
+      "PropertyChanged.Fody/4.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/PropertyChanged.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
       "SimpleInjector/5.4.1": {
         "type": "package",
         "dependencies": {
@@ -110,6 +135,39 @@
     }
   },
   "libraries": {
+    "Fody/6.6.4": {
+      "sha512": "vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "type": "package",
+      "path": "fody/6.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.6.4.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
     "MaterialDesignColors/2.0.9": {
       "sha512": "b4tdvxPZUCKCpxeCNFnF/+2Hug2cd+/SUGYCt+RXRRrobFYZkZQsIjlbsTGy5Hup9yPMMxqFSEXGRIxCm2JZUA==",
       "type": "package",
@@ -236,6 +294,27 @@
         "lib/xamarin.ios10/GalaSoft.MvvmLight.pdb",
         "mvvmlightlibsstd10.5.4.1.1.nupkg.sha512",
         "mvvmlightlibsstd10.nuspec"
+      ]
+    },
+    "PropertyChanged.Fody/4.0.5": {
+      "sha512": "D4UXpsUw9kgayfHT8zzwzO2xL7PirJ/xrjX+Fp5x3Og/YDKtvKTMiCx0KGOydqOYXhP0OMyz22kZUMWRujdT0g==",
+      "type": "package",
+      "path": "propertychanged.fody/4.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/PropertyChanged.Fody.Analyzer.dll",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "lib/netstandard2.1/PropertyChanged.dll",
+        "lib/netstandard2.1/PropertyChanged.xml",
+        "propertychanged.fody.4.0.5.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
       ]
     },
     "SimpleInjector/5.4.1": {
@@ -419,11 +498,12 @@
       "MaterialDesignColors >= 2.0.9",
       "MaterialDesignThemes >= 4.6.1",
       "MvvmLightLibsStd10 >= 5.4.1.1",
+      "PropertyChanged.Fody >= 4.0.5",
       "SimpleInjector >= 5.4.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wayne\\.nuget\\packages\\": {},
+    "C:\\Users\\elvin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -432,14 +512,14 @@
       "projectUniqueName": "C:\\Work\\FBAS_4217_RU\\WPF\\MusicAppMVVM2\\MusicAppMVVM\\MusicAppMVVM.csproj",
       "projectName": "MusicAppMVVM",
       "projectPath": "C:\\Work\\FBAS_4217_RU\\WPF\\MusicAppMVVM2\\MusicAppMVVM\\MusicAppMVVM.csproj",
-      "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\elvin\\.nuget\\packages\\",
       "outputPath": "C:\\Work\\FBAS_4217_RU\\WPF\\MusicAppMVVM2\\MusicAppMVVM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -449,8 +529,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.org": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -480,6 +559,10 @@
             "target": "Package",
             "version": "[5.4.1.1, )"
           },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[4.0.5, )"
+          },
           "SimpleInjector": {
             "target": "Package",
             "version": "[5.4.1, )"
@@ -496,24 +579,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -522,7 +587,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.7.22377.5\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
       }
     }
   }

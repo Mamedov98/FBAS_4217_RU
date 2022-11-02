@@ -8,7 +8,7 @@
 
     <Application.Resources>
         <ResourceDictionary>
-
+            
             <DataTemplate DataType="{x:Type viewModel:MainViewModel}">
                 <view:MainView></view:MainView>
             </DataTemplate>
@@ -20,7 +20,6 @@
             <DataTemplate DataType="{x:Type viewModel:InfoViewModel}">
                 <view:InfoView></view:InfoView>
             </DataTemplate>
-
 
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />

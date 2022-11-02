@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using GalaSoft.MvvmLight.Messaging;
+using MusicAppMVVM.Message;
+using MusicAppMVVM.Services.Classes;
+using MusicAppMVVM.Services.Interfaces;
 using MusicAppMVVM.View;
 using MusicAppMVVM.ViewModel;
 using SimpleInjector;
@@ -18,14 +16,18 @@ namespace MusicAppMVVM
         protected override void OnStartup(StartupEventArgs e)
         {
             Register();
+          
             MainStartup();
+
             base.OnStartup(e);
         }
-
 
         private void Register()
         {
             Container = new();
+
+            Container.RegisterSingleton<IMessenger, Messenger>();
+            Container.RegisterSingleton<INavigationService, NavigationService>();
 
             Container.RegisterSingleton<MainViewModel>();
             Container.RegisterSingleton<SearchViewModel>();
@@ -38,9 +40,10 @@ namespace MusicAppMVVM
         {
             Window mainView = new MainView();
 
-            mainView.DataContext = Container.GetInstance<MainViewModel>();
+            mainView.DataContext = Container?.GetInstance<MainViewModel>();
 
             mainView.ShowDialog();
         }
+
     }
 }

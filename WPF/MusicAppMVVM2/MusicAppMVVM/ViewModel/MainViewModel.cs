@@ -1,20 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Messaging;
+using MusicAppMVVM.Message;
 
 namespace MusicAppMVVM.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        private ViewModelBase currentViewModel;
-        public ViewModelBase CurrentViewModel { get => currentViewModel; set => Set(ref currentViewModel, value); }
+        public ViewModelBase? CurrentViewModel { get; set; }
 
-        public MainViewModel()
+        private readonly IMessenger _messenger;
+
+        public MainViewModel(IMessenger messenger)
         {
-            CurrentViewModel = App.Container.GetInstance<SearchViewModel>();
+            CurrentViewModel = App.Container?.GetInstance<SearchViewModel>();
+
+            _messenger = messenger;
+
+            _messenger.Register<NavigationMessage?>(this, message =>
+            {
+                var viewModel = App.Container?.GetInstance(message?.ViewModelType) as ViewModelBase;
+                CurrentViewModel = viewModel;
+            });
         }
     }
 }

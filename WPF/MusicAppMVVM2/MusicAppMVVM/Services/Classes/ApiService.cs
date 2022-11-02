@@ -25,9 +25,16 @@ namespace MusicAppMVVM.Services.Classes
 
         public static async Task<string> FindMusic(string? name)
         {
-            string uri = $@"https://youtube-music1.p.rapidapi.com/v2/search?query={name}";
+            try
+            {
+                string uri = $@"https://youtube-music1.p.rapidapi.com/v2/search?query={name}";
 
-            return await _httpClient.GetStringAsync(new Uri(uri));
+                return await _httpClient.GetStringAsync(new Uri(uri));
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         public static async Task<byte[]> GetDownloadDataAsync(string? id)

@@ -16,5 +16,4 @@ namespace MusicAppMVVM.Model
     {
         public string download_url { get; set; }
     }
-
 }

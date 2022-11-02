@@ -16,7 +16,10 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         d:DataContext="{d:DesignInstance viewModel:MainViewModel }">
+    
     <Grid>
         <ContentControl Content="{Binding CurrentViewModel}"/>
-    </Grid>
+        <!--ContentControl - Control, котороый управляет содержимым--> 
+   </Grid>
+    
 </Window>

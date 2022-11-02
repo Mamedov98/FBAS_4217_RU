@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MusicAppMVVM.Message;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace MusicAppMVVM.Model
         public Video[]? videos { get; set; }
     }
 
-    public class Song
+    public class Song : ISendable
     {
         public string? id { get; set; }
         public string? name { get; set; }

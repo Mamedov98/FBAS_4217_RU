@@ -1,6 +1,10 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Messaging;
+using MaterialDesignThemes.Wpf;
+using MusicAppMVVM.Message;
 using MusicAppMVVM.Model;
+using MusicAppMVVM.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,24 +16,25 @@ namespace MusicAppMVVM.ViewModel
     internal class InfoViewModel : ViewModelBase
     {
         public Song SongInfo { get; set; }
+        private readonly INavigationService? _service;
+        private readonly IMessenger _messenger;
 
-        public InfoViewModel()
+        public InfoViewModel(INavigationService? service, IMessenger messenger)
         {
-            SongInfo = new()
+            _service = service;
+            _messenger = messenger;
+
+            _messenger.Register<ParameterMessage>(this, param =>
             {
-                name = "Nightcall",
-                title = "OST Drive",
-                album = new() { name = "Drive film" },
-                duration = 2300,
-                Img = new(new(@"https://c-fa.cdn.smule.com/rs-s33/arr/24/3a/087680e1-26c0-40e6-8351-f26b9c4211ef_1024.jpg"))
-            };
+                SongInfo = param?.Message as Song;
+            });
         }
 
         public RelayCommand<Song> BackCommand
         {
             get => new(async param =>
             {
-                App.Container.GetInstance<MainViewModel>().CurrentViewModel = App.Container.GetInstance<SearchViewModel>();
+                _service?.NavigateTo<SearchViewModel>();
             });
         }
     }
