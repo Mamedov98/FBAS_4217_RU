@@ -1,24 +1,36 @@
 ﻿using GalaSoft.MvvmLight;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
+using GalaSoft.MvvmLight.Command;
+using Translater.Services.Interfaces;
+using Translater.Model;
 using System.Threading.Tasks;
-using System.Windows;
-using Translater.Model.Lang;
-using Translater.Services.Classes;
 
 namespace Translater.ViewModel
 {
     public class TranslateViewModel : ViewModelBase
     {
-        public LangModel? Lang { get; set; }
-        
-        public TranslateViewModel()
-        {
+        public TranslateModel? Model { get; set; } = new();
 
+        private ITranslationProvider? _translationProvider;
+        private ILanguagesProvider? _langProvider;
+
+        public TranslateViewModel(ITranslationProvider? provider, ILanguagesProvider? langProvider)
+        {
+            _translationProvider = provider;
+            _langProvider = langProvider;
+            Model.Languages = _langProvider?.GetLanguages();
+        }
+
+        public RelayCommand TranslateCommand
+        {
+            get => new(async () =>
+            {
+                var res = await _translationProvider?.TranslateAsync(Model?.FromText, Model?.SelectedTo);
+                
+
+                Model.SelectedFrom = res.DetectedLanguageCode.ToLower();
+                
+                Model.ToText = res.TranslatedText;
+            });
         }
     }
 }

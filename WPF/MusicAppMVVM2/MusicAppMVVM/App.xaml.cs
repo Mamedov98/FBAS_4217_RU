@@ -30,8 +30,10 @@ namespace MusicAppMVVM
             Container.RegisterSingleton<INavigationService, NavigationService>();
 
             Container.RegisterSingleton<MainViewModel>();
+
             Container.RegisterSingleton<SearchViewModel>();
             Container.RegisterSingleton<InfoViewModel>();
+            
 
             Container.Verify();
         }

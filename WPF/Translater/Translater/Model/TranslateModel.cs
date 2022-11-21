@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,21 +7,17 @@ using System.Threading.Tasks;
 
 namespace Translater.Model
 {
-    namespace Translate
+    public class TranslateModel : ViewModelBase
     {
-        public class TranslateModel
-        {
-            public Data data { get; set; }
-        }
-        public class Data
-        {
-            public Translation[] translations { get; set; }
-        }
+        public Dictionary<string, string> Languages { get; set; }
+        public string? SelectedFrom { get; set; }
+        
+        private string? _selectedTo;
+        public string? SelectedTo { get => _selectedTo; set => Set(ref _selectedTo, value); }
+        public string? FromText { get; set; }
 
+        private string? _toText;
 
-        public class Translation
-        {
-            public string translatedText { get; set; }
-        }
+        public string? ToText { get => _toText; set => Set(ref _toText, value); }
     }
 }

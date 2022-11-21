@@ -89,3 +89,4 @@ C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\Vie
 C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\View\InfoView.baml
 C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\MusicAppMVVM.csproj.Fody.CopyLocal.cache
 C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\obj\Debug\net6.0-windows\MusicAppMVVM.csproj.Fody.RuntimeCopyLocal.cache
+C:\Work\FBAS_4217_RU\WPF\MusicAppMVVM2\MusicAppMVVM\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

@@ -22,9 +22,11 @@ namespace Translater
         {
             IOC?.RegisterSingleton<INavService, NavService>();
             IOC?.RegisterSingleton<IMessenger, Messenger>();
+            IOC?.RegisterSingleton<ITranslationProvider, TranslationProvider>();
+            IOC?.RegisterSingleton<ILanguagesProvider, LanguagesProvider>();
+
             IOC?.RegisterSingleton<MainViewModel>();
             IOC?.RegisterSingleton<TranslateViewModel>();
-
             IOC?.Verify();
 
             Window mainView = new MainView();

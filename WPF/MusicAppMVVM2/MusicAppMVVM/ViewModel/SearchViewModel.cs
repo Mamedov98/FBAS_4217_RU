@@ -56,6 +56,7 @@ namespace MusicAppMVVM.ViewModel
             get => new(async param =>
             {
                 _navigationService?.NavigateTo<InfoViewModel>(new ParameterMessage() { Message = Selected }); ;
+                
             });
         }
 

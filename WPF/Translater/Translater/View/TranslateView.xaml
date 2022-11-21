@@ -19,6 +19,7 @@
             <RowDefinition Height="0.1*"/>
             <RowDefinition/>
             <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -28,17 +29,17 @@
 
         <DockPanel Grid.Row="0" Grid.Column="0">
             <Label DockPanel.Dock="Left" Content="From: "/>
-            <ComboBox ItemsSource="{Binding Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
+            <ComboBox SelectedValuePath="Key" DisplayMemberPath="Value" SelectedValue="{Binding Model.SelectedFrom}" ItemsSource="{Binding Model.Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
         </DockPanel>
 
         <DockPanel Grid.Row="0" Grid.Column="1">
             <Label DockPanel.Dock="Left" Content="To: "/>
-            <ComboBox ItemsSource="{Binding Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
+            <ComboBox SelectedValuePath="Key" DisplayMemberPath="Value" SelectedValue="{Binding Model.SelectedTo}" ItemsSource="{Binding Model.Languages}" IsTextSearchEnabled="True" DockPanel.Dock="Right"/>
         </DockPanel>
 
-        <TextBox Grid.Row="1" Grid.Column="0" Text="{Binding FromText}"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ToText}"/>
-        <Button Grid.Row="2" Grid.ColumnSpan="2" Background="{StaticResource MaterialDesignDarkBackground}">
+        <TextBox Grid.Row="1" Grid.Column="0" Text="{Binding Model.FromText}"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Model.ToText}"/>
+        <Button Command="{Binding TranslateCommand}" Grid.Row="2" Grid.ColumnSpan="2" Background="{StaticResource MaterialDesignDarkBackground}">
             <mD:PackIcon Kind="Translate"/>
         </Button>
     </Grid>
