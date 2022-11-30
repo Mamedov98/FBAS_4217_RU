@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight.Messaging;
-using SimpleInjector;
+﻿using SimpleInjector;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

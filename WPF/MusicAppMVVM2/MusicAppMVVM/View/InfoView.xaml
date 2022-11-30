@@ -52,7 +52,6 @@
                 <Label Content="{Binding SongInfo.album.name}"/>
                 <Label Content="{Binding SongInfo.duration}"/>
             </StackPanel>
-            
         </Grid>
 
         <Grid Grid.Column="1">

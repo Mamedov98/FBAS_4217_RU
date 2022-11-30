@@ -1,0 +1,15 @@
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\bin\Debug\net6.0\AbstractFactory.exe
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\bin\Debug\net6.0\AbstractFactory.deps.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\bin\Debug\net6.0\AbstractFactory.runtimeconfig.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\bin\Debug\net6.0\AbstractFactory.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\bin\Debug\net6.0\AbstractFactory.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\refint\AbstractFactory.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\AbstractFactory.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Singleton\Creational\AbstractFactory\obj\Debug\net6.0\ref\AbstractFactory.dll

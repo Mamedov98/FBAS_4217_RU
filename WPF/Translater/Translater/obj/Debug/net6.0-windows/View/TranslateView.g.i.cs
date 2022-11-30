@@ -56,7 +56,7 @@ namespace Translater.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Translater;V1.0.0.0;component/view/translateview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Translater;component/view/translateview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\TranslateView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
