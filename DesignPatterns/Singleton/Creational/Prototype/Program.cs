@@ -13,51 +13,58 @@
 
 
 
-MyClass original = new()
-{
-    Value = 1
-};
+//MyClass original = new()
+//{
+//    Value = 1
+//};
 
-MyClass copy = original;
-
-
-Console.WriteLine("Before:");
-Console.WriteLine($"Original: {original.Value}\tCopy: {copy.Value}");
-
-copy.Value = 10;
-
-Console.WriteLine("After:");
-Console.WriteLine($"Original: {original.Value}\tCopy: {copy.Value}");
+//MyClass copy = original;
 
 
-class MyClass
-{
-    public int Value { get; set; }
-}
+//Console.WriteLine("Before:");
+//Console.WriteLine($"Original: {original.Value}\tCopy: {copy.Value}");
+
+//copy.Value = 10;
+
+//Console.WriteLine("After:");
+//Console.WriteLine($"Original: {original.Value}\tCopy: {copy.Value}");
 
 
-class Person : ICloneable
-{
-    public string? Name { get; set; }
-    public string? Surname { get; set; }
-    public DateTime DateOfBirth { get; set; }
-
-    private UInt16 age;
-    public UInt16 GetAge()
-    {
-        return (UInt16)(DateTime.Now.Subtract(DateOfBirth).TotalDays / 365);
-    }
-
-    public object Clone()
-    {
-        return new Person()
-        {
-            Name = this.Name,
-            Surname = this.Surname,
-            DateOfBirth = this.DateOfBirth
-        };
-    }
-}
+//class MyClass
+//{
+//    public int Value { get; set; }
+//}
 
 
+//class Person : ICloneable
+//{
+//    public string? Name { get; set; }
+//    public string? Surname { get; set; }
+//    public DateTime DateOfBirth { get; set; }
 
+//    private UInt16 age;
+//    public UInt16 GetAge()
+//    {
+//        return (UInt16)(DateTime.Now.Subtract(DateOfBirth).TotalDays / 365);
+//    }
+
+//    public object Clone()
+//    {
+//        return new Person()
+//        {
+//            Name = this.Name,
+//            Surname = this.Surname,
+//            DateOfBirth = this.DateOfBirth
+//        };
+//    }
+//}
+
+
+
+dynamic a = 5;
+
+Console.WriteLine(a);
+
+a = "Hello";
+
+Console.WriteLine(a);
