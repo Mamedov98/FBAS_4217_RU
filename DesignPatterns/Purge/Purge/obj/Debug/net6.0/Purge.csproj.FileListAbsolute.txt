@@ -1,0 +1,17 @@
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\Purge.exe
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\Purge.deps.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\Purge.runtimeconfig.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\Purge.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\Purge.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.csproj.CopyComplete
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\refint\Purge.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\Purge.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Purge\Purge\obj\Debug\net6.0\ref\Purge.dll

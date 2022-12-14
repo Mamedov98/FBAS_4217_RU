@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using GalaSoft.MvvmLight.Messaging;
-using MusicAppMVVM.Message;
 using MusicAppMVVM.Services.Classes;
 using MusicAppMVVM.Services.Interfaces;
 using MusicAppMVVM.View;

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hiKne1XRRy5yj+lugywFKPPb8Z9C0KKclzNNUFtcRFDGytRR78t1bLlPBJeXbHxuvpjkR21lDh/JaJTLNKPAdg==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\FBAS_4217_RU\\DesignPatterns\\Purge\\Purge\\Purge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elvin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

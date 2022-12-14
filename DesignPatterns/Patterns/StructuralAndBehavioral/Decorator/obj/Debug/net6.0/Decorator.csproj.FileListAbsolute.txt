@@ -1,0 +1,17 @@
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.csproj.AssemblyReference.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.AssemblyInfoInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.AssemblyInfo.cs
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.csproj.CoreCompileInputs.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\Decorator.exe
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\Decorator.deps.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\Decorator.runtimeconfig.json
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\Decorator.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\Decorator.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\bin\Debug\net6.0\GalaSoft.MvvmLight.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.csproj.CopyComplete
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\refint\Decorator.dll
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.pdb
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\Decorator.genruntimeconfig.cache
+C:\Work\FBAS_4217_RU\DesignPatterns\Patterns\Structural\Decorator\obj\Debug\net6.0\ref\Decorator.dll
