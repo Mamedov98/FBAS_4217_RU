@@ -28,17 +28,17 @@
 
 
 
--- create table Faculty(
---     Id int primary key identity(1, 1),
---     Name nvarchar(15) NOT NULL
--- )
---
--- create table Groups(
---     Id int primary key identity(1, 1),
---     Name nvarchar(15) NOT NULL,
---     FacultyId int foreign key references Faculty(Id)
--- )
---
+create table Faculty(
+    Id int primary key identity(1, 1),
+    Name nvarchar(15) NOT NULL
+)
+
+create table Groups(
+    Id int primary key identity(1, 1),
+    Name nvarchar(15) NOT NULL,
+    FacultyId int foreign key references Faculty(Id)
+)
+
 --
 -- insert into  Faculty(Name) values(N'Programming')
 -- insert into  Faculty(Name) values(N'Networking')
