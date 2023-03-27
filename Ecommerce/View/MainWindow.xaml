@@ -1,0 +1,65 @@
+﻿<Window x:Class="Ecommerce.View.SneakersMenuView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewmodels="clr-namespace:Ecommerce.ViewModel"
+        Title="Sneakers Menu" Height="450" Width="800" Name ="SneakersView"
+        Background="Beige">
+    <Window.DataContext>
+        <viewmodels:MainViewModel/>
+    </Window.DataContext>
+    
+    <Grid>
+
+        <StackPanel Grid.Column="0" Background="#FF6061B8" Width="200" Margin="590,5,10,5">
+            <TextBlock Text="Filter by brand" FontWeight="Bold" Margin="5"/>
+            <ComboBox ItemsSource="{Binding Brands}" DisplayMemberPath="Name" SelectedValuePath="Id"
+                      SelectedValue="{Binding SelectedBrandId, Mode=TwoWay}" Margin="5">
+                <ComboBoxItem>Adidas</ComboBoxItem>
+                <ComboBoxItem>Nike</ComboBoxItem>
+                <ComboBoxItem>Puma</ComboBoxItem>
+               
+            </ComboBox> 
+            <TextBlock Text="{Binding selectedBrands}" Foreground="#FFEE0707" />
+            <TextBlock Text="Sort by price" FontWeight="Bold" Margin="5"/>
+            <RadioButton Content="Ascending" IsChecked="{Binding IsPriceAscending, Mode=TwoWay}" Margin="5"/>
+            <RadioButton Content="Descending" IsChecked="{Binding IsPriceDescending, Mode=TwoWay}" Margin="5"/> 
+            <Button Content="Delete Product" Background="#FF8073D7"/>
+            <Button Content="Add Product" Background="#FF8073D7"/>
+            <Button Content="Edit Product" Background="#FF8073D7"/>
+        </StackPanel>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="505*"/>
+                <ColumnDefinition Width="242*"/>
+                <ColumnDefinition Width="53*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Sneakers" FontWeight="Bold" FontSize="24" Margin="5,5,5,5" Grid.ColumnSpan="3" Foreground="#FF6061B8" HorizontalAlignment="Left"/>
+            <ListView ItemsSource="{Binding Sneakers}" Grid.Row="1" Margin="25,26,165,25" Grid.ColumnSpan="2" FontSize="18" FontFamily="Yu Gothic UI Semibold">
+                <ListView.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FF6061B8" Offset="1"/>
+                    </LinearGradientBrush>
+                </ListView.Foreground>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image  Source="{Binding DataContext.Photo.PhotoData, ElementName=SneakersView}" Width="100" Height="100" Margin="5"/>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Brand.Name}" FontWeight="Bold" FontSize="18" Margin="5,0,0,0"/>
+                                <TextBlock Text="{Binding Name}" Margin="5,0,0,0"/>
+                                <TextBlock Text="{Binding Price, StringFormat='{}{0:C}'}" Margin="5,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+           
+        </Grid>
+    </Grid>
+</Window>
