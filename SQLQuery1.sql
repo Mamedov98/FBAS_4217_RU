@@ -1,1 +1,1 @@
-﻿delete  from sneakers
+﻿select * from sneakers

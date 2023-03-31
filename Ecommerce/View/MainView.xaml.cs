@@ -1,5 +1,4 @@
-﻿using Ecommerce.Model;
-using Ecommerce.ViewModel;
+﻿using Ecommerce.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +11,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-namespace Ecommerce
+namespace Ecommerce.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для MainView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainView : Window
     {
-        private readonly EcommerceContext _context;
-        public MainWindow()
+        public MainView()
         {
-            //InitializeComponent(); 
+            InitializeComponent();
             var viewModel = new MainViewModel();
             DataContext = viewModel;
         }
