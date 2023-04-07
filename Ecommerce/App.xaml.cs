@@ -30,7 +30,9 @@ namespace Ecommerce
             Container.RegisterSingleton<IMessenger, Messenger>();
             Container.RegisterSingleton<INavigationService, NavigationService>();
 
-            Container.RegisterSingleton<MainViewModel>(); 
+            Container.RegisterSingleton<MainViewModel>();  
+            Container.RegisterSingleton<AdminPanelViewModel>();   
+            Container.RegisterSingleton<EditPageModel>(); 
 
             Container.Verify();
         }
@@ -39,7 +41,8 @@ namespace Ecommerce
         {
             Window mainView = new MainView();
 
-            mainView.DataContext = Container?.GetInstance<MainViewModel>();
+            mainView.DataContext = Container.GetInstance<MainViewModel>();
+           
 
             mainView.ShowDialog();
         }

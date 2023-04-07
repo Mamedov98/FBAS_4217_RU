@@ -6,6 +6,10 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF> 
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModel\EditPage.cs" />
+  </ItemGroup>
 	<ItemGroup>
     <PackageReference Include="MaterialDesignColors" Version="2.1.2" />
     <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />

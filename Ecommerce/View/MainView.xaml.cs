@@ -22,9 +22,41 @@ namespace Ecommerce.View
     {
         public MainView()
         {
-            InitializeComponent();
-            var viewModel = new MainViewModel();
-            DataContext = viewModel;
+            InitializeComponent(); 
+           
+          // var viewModel = App.Container.GetInstance<MainViewModel>();
+           //DataContext = viewModel;
+
+
+        }
+        private void Minimize_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        static bool check = false;
+        private void Maximize_Click(object sender, RoutedEventArgs e)
+        {
+            if (check)
+            {
+                this.WindowState = WindowState.Normal;
+                check = false;
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+                check = true;
+            }
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.Shutdown();
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }
