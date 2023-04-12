@@ -16,25 +16,25 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" MinWidth="153"/>
-            <ColumnDefinition/>
+            <ColumnDefinition/> 
         </Grid.ColumnDefinitions>
         <TextBlock FontSize="30" FontWeight="Bold" Text="Brand:"  Grid.Row="0" Margin="0,0,0,102" Grid.RowSpan="2" />
         <TextBlock FontSize="30" FontWeight="Bold" Text="Model:"  Grid.Row="1" Margin="0,0,0,102" Grid.RowSpan="2" />
         <TextBlock FontSize="30" FontWeight="Bold"  Grid.Row="2" Margin="0,0,0,72" Grid.RowSpan="2" Text="Price:" HorizontalAlignment="Left" VerticalAlignment="Center"  />
         <TextBlock FontSize="30" FontWeight="Bold" Text="Photo:"  Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <TextBox Grid.Column="1" Grid.Row="0"   Margin="20,20,20,20" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8"
+        <TextBox x:Name="BrandTextBox"  Text="{Binding _sneakers.Name}"   Grid.Column="1" Grid.Row="0"   Margin="20,20,20,20" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8"
              FontSize="30" />
-        <TextBox Grid.Column="1" Grid.Row="1"  Margin="20,20,20,20" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8"
+        <TextBox x:Name="ModelTextBox" Grid.Column="1" Grid.Row="1"  Margin="20,20,20,20" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8"
              FontSize="30"/>
         <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal" Margin="20,20,20,20">
             <TextBlock FontSize="30" FontWeight="Bold" Text="$" VerticalAlignment="Center" Margin="0,0,10,0"/>
-            <TextBox Margin="0" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8" FontSize="30" Width="99"/>
+            <TextBox x:Name="PriceTextBox" Margin="0" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8" FontSize="30" Width="99"/>
 
         </StackPanel>
 
         <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal" Margin="20,20,20,20">
             <TextBlock FontSize="30" FontWeight="Bold" Text="URL" VerticalAlignment="Center" Margin="0,0,10,0" Width="62"/>
-            <TextBox Margin="0" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8" FontSize="30" Width="297"/>
+            <TextBox x:Name="PhotoTextBox" Margin="0" Padding="10" Background="#F5F5F5" BorderThickness="1" BorderBrush="#C8C8C8" FontSize="30" Width="297"/>
 
         </StackPanel>
         <Button x:Name="SaveButton"  Grid.Column="1" Grid.Row="4" Height="40" Width="150" HorizontalAlignment="Right" Margin="0,10,0,-10" Content="Save" Background="#FF6061B8" >

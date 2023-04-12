@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Ecommerce.Model;
+using Ecommerce.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.RightsManagement;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,5 +27,7 @@ namespace Ecommerce.View
         {
             InitializeComponent();
         }
+
+      
     }
 }

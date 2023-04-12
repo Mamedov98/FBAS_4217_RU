@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using UserEcommerceApp.Message;
 using static Ecommerce.Model.EcommerceContext;
 
 namespace Ecommerce.ViewModel
@@ -98,7 +99,7 @@ namespace Ecommerce.ViewModel
         {
             get => new(param =>
             {
-                MessageBox.Show("sssss");
+              
                 using (var context = new EcommerceContext())
                 {
 
@@ -106,7 +107,7 @@ namespace Ecommerce.ViewModel
 
 
                 }
-                _navigationService.NavigateTo<EditPageModel>();
+                _navigationService.NavigateTo<EditPageModel>(new ParameterMessage() { Message = (ISendable)_selectedSneaker }  ); ; 
 
 
             });

@@ -11,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using static Ecommerce.Model.EcommerceContext;
 
 namespace Ecommerce.ViewModel
@@ -18,28 +19,31 @@ namespace Ecommerce.ViewModel
     
     class EditPageModel : ViewModelBase, INotifyPropertyChanged
     {
-        public AdminPanelViewModel AdminPanel { get; set; } 
+        public AdminPanelViewModel AdminPanel { get; set; }
+        public EcommerceContext EcommerceContextEcommerceContext { get; set; }
 
-
-        
+        private Sneaker _sneakers { get; set; }
 
         private Sneaker _selectedSneaker;
         private readonly IMessenger _messenger;
         private readonly INavigationService _navigationService;
 
-        public EditPageModel(IMessenger messenger, INavigationService navigationService)
+        public EditPageModel (IMessenger messenger, INavigationService navigationService)
         {
+           
             _messenger = messenger;
 
-            _messenger.Register<DataMessage>(this, message =>
+            _messenger.Register<DataMessage>(this, param =>
             {
-                AdminPanel = message.Data as AdminPanelViewModel;  
+                _sneakers = param.Data as Sneaker;  
+                RaisePropertyChanged(nameof(Sneaker)); 
             });
+           
+            _navigationService = navigationService;  
 
-            _navigationService = navigationService;
         }
 
-
+     
 
         public Sneaker SelectedSneaker
         {

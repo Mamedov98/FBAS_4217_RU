@@ -23,16 +23,16 @@ namespace Ecommerce.Services.Classes
             }
             _messenger.Send(new NavigationMessage() { ViewModelType = typeof(T) });
         }
-      
+
         public void SendData<T>(T? data) where T : class
         {
-            if (data != null) 
+            if (data != null)
             {
-                _messenger.Send( new DataMessage()
-                { 
-                    Data = data 
+                _messenger.Send(new DataMessage()
+                {
+                    Data = data
                 });
-              
+
 
             };
         }
